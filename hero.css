@@ -7,7 +7,7 @@ body {
 }
 
 .navbar {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 
@@ -21,3 +21,28 @@ body {
 
 }
 
+
+.tagline{
+    position: absolute;
+  top: 40vh;
+  left: 15vw;
+}
+
+.buttons {
+    position: absolute;
+    top: 50vh;
+  left: 15vw;
+}
+
+.code {
+    height: 5vh;
+    border-radius: 5vh;
+    background-color: rgb(70, 4, 133);
+    
+}
+
+.project {
+    height: 5vh;
+    border-radius: 5vh;
+    background-color: rgb(70, 4, 133);
+}
