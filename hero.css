@@ -16,33 +16,107 @@ body {
 .amig {
     position: absolute;
     height: 60vh;
-    right:  10%;
+    right: 10%;
     top: 20vh;
 
 }
 
 
-.tagline{
+.tagline {
     position: absolute;
-  top: 40vh;
-  left: 15vw;
+    top: 40vh;
+    left: 15vw;
 }
 
 .buttons {
     position: absolute;
-    top: 50vh;
-  left: 15vw;
+    top: 57vh;
+    left: 15vw;
+   
+   
 }
 
 .code {
     height: 5vh;
     border-radius: 5vh;
     background-color: rgb(70, 4, 133);
-    
+    border: none;
+    padding: 10px;
 }
 
 .project {
     height: 5vh;
     border-radius: 5vh;
     background-color: rgb(70, 4, 133);
+    border: none;
+    padding: 10px;
 }
+
+.project>a:link {
+    color: #FFFAFA;
+    text-decoration: none;
+}
+
+
+.project>a:visited {
+    color: #FFFAFA;
+    text-decoration: none;
+}
+
+
+.project>a:hover {
+    color: #FFFAFA;
+    text-decoration: none;
+}
+
+
+.project>a:active {
+    color: #FFFAFA;
+    text-decoration: none;
+}
+
+
+
+
+.code>a:link {
+    color: #FFFAFA;
+    text-decoration: none;
+}
+
+
+.code>a:visited {
+    color: #FFFAFA;
+    text-decoration: none;
+}
+
+
+.code>a:hover {
+    color: #FFFAFA;
+    text-decoration: none;
+}
+
+
+.code>a:active {
+    color: #FFFAFA;
+    text-decoration: none;
+}
+
+.tagline > h1 {
+    font-size: 4.9rem;
+    color: white;
+}
+
+.tagline > h4 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+   .hero {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+
+
