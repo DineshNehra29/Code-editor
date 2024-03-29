@@ -1,39 +1,55 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
-    background-color: rgb(54, 98, 221);
+    background-color: rgb(107, 8, 199);
 }
 
 .navbar {
     background-color: transparent !important;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.column {
+    flex: 1;
+    padding: 10px;
+}
 
+.row {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column-reverse;
+
+    }
+
+    .c2 {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .amig {
+        height: 40vh;
+    }
+}
+
+.row1 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+}
 
 .amig {
-    position: absolute;
-    height: 60vh;
-    right: 10%;
-    top: 20vh;
-
-}
-
-
-.tagline {
-    position: absolute;
-    top: 40vh;
-    left: 15vw;
-}
-
-.buttons {
-    position: absolute;
-    top: 57vh;
-    left: 15vw;
-   
-   
+    max-height: 60vh;
 }
 
 .code {
@@ -42,6 +58,8 @@ body {
     background-color: rgb(70, 4, 133);
     border: none;
     padding: 10px;
+    width: 120px;
+   
 }
 
 .project {
@@ -50,6 +68,8 @@ body {
     background-color: rgb(70, 4, 133);
     border: none;
     padding: 10px;
+    margin-left: 15px;
+    width: 120px;
 }
 
 .project>a:link {
@@ -101,22 +121,10 @@ body {
     text-decoration: none;
 }
 
-.tagline > h1 {
-    font-size: 4.9rem;
-    color: white;
-}
-
-.tagline > h4 {
-    font-size: 2.5rem;
-    color: white;
-}
-
-
-   .hero {
+@media (min-width: 900px) {
+    .c2{
+        height: 100%;
         display: flex;
         align-items: center;
-        justify-content: flex-end;
-      }
-
-
-
+    }
+}
