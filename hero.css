@@ -127,4 +127,22 @@ body {
 
 
 
+@media (min-width: 990px) {
+   
+    .nav1 {
+        margin-right: 5% !important;
+     }
+}
+
+.nav1 > a {
+    font-size: 1.3rem;
+}
+
+.nav2{
+    background-color: aqu;
+    display: flex;
+    justify-content: end;
+}
+
+
    
