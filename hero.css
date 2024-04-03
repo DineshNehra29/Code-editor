@@ -136,13 +136,32 @@ body {
 
 .nav1 > a {
     font-size: 1.3rem;
+    
 }
+
+.nav1>a:link{
+    color: white !important;
+}
+
+.nav1>a:visited{ color: black !important;}
+.nav1>a:hover{ color: black !important;}
+
+
 
 .nav2{
     background-color: aqu;
     display: flex;
     justify-content: end;
 }
+
+.logo1:link{
+    color: aqua !important;
+    margin-left: 2%;
+    font-size: 1.7rem;
+}
+
+
+
 
 
    
