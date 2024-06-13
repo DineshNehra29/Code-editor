@@ -1,9 +1,4 @@
-:root {
-    --dark-blue: #14007a;
-    --blue: #1a009c;
-    --light-blue: rgb(74, 225, 255);
-    --pink: rgb(255, 40, 113);
-}
+
 
 * {
     margin: 0;
@@ -14,8 +9,8 @@
 body {
     height: 100vh;
     font-family: sans-serif;
-    background-image: linear-gradient(45deg,var(--light-blue), var(--blue));
-
+   
+    background-color: rgb(107, 8, 199) ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +25,7 @@ body {
     background-color: transparent;
     border-radius: 1rem;
     overflow: hidden;
-    bordr: 1px solid var(--dark-blue);
+    
 }
 
 .code {
@@ -38,7 +33,7 @@ body {
     grid-template-rows: repeat(3, 1fr);
     overflow-y: auto;
 
-    background-color: var(--dark-blue);
+    background-color: rgb(70, 4, 133);
     padding: 1rem;
     border-radius: 0 1rem 1rem 0;
 }
@@ -58,20 +53,19 @@ h1 > img {
 .code textarea {
     width: 100%;
     height: calc(100% - 4rem);
-    background-color: var(--blue);
-    color: var(--light-blue);
+   
     border: none;
     padding: 1rem;
     font-size: 1.1rem;
-    resize: vertical;
+    resize: none;
 }
 
 .code textarea::-webkit-scrollbar {
-    width: .4rem;
+    width: .2rem;
 }
 .code textarea::-webkit-scrollbar-thumb {
-    background-color: var(--pink);
-    border-radius: .4rem;
+    background-color: rgb(51, 51, 51);
+    border-radius: .2rem;
 }
 
 #result {
@@ -83,25 +77,10 @@ h1 > img {
 
 }
 
-a {
-    background-color: lime;
-    color: #fff;
-    padding: 0 1.2rem;
-    border-radius: .5rem;
-    text-decoration: none;
-    font-size: 2rem;
-    float: right;
-    cursor: pointer;
+i {
+    font-size: xx-large;
 }
 
 
-.top {
-    background-color: aquamarine;
-   position: absolute;
-   width: 100%;
-   top: 0;
-   height: 5vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
+
+
